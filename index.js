@@ -1,13 +1,13 @@
-import _ from "lodash";
+import _ from 'lodash';
 
-console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
+import app from './src/index.js';
+
+console.log('Hello, Hexlet!');
+console.log(_.last(['one', 'two']));
 
 const fn = (a, b) => {
   const c = a + b;
   return c;
 };
-
-import app from "./src/index.js";
 
 app();
