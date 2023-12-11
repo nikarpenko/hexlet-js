@@ -8,6 +8,4 @@ const fn = (a, b) => {
   return c;
 };
 
-import app from "./src/index.js";
-
-app();
+export default () => console.log("Welcome to my application!");
